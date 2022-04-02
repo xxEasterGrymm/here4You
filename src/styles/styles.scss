@@ -2,11 +2,10 @@
 @import './hero.scss';
 @import './footer.scss';
 
-$primary-color: #000000;
-$secondary-color: #ffffff;
-
 * {
     font-family: "Lexend Deca", sans-serif;
     margin-left: 0px;
-    
+    background-image: url('../images/light-backround.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
