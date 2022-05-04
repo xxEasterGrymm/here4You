@@ -1,18 +1,27 @@
-import React from 'react';
+import React, { useState } from 'react';
 
+function toggle() {
+
+}
 
 /*document.querySelector('.img__btn').addEventListener('click', function () {
     document.querySelector('.cont').classList.toggle('s--signup');
 });*/
 
 
-export default function form() {
+export default function Form() {
+    const [isActive, setActive] = useState("false");
+
+    const handleToggle = () => {
+        setActive(!isActive);
+    };
+
     return (
         <div>
             <br />
             <br />
-            <div class="cont">
-                <div class="form sign-in">
+            <div className={isActive ? "cont" : "cont s--signup"}>
+                <div className="form sign-in">
                     <h2>Welcome</h2>
                     <label>
                         <span>Email</span>
@@ -22,26 +31,26 @@ export default function form() {
                         <span>Password</span>
                         <input type="password" />
                     </label>
-                    <p class="forgot-pass">Forgot password?</p>
-                    <button type="button" class="submit">Sign In</button>
+                    <p className="forgot-pass">Forgot password?</p>
+                    <button type="button" className="submit">Sign In</button>
 
                 </div>
-                <div class="sub-cont">
-                    <div class="img">
-                        <div class="img__text m--up">
+                <div className="sub-cont">
+                    <div className="img">
+                        <div className="img__text m--up">
 
                             <h3>Don't have an account? Please Sign up!</h3>
                         </div>
-                        <div class="img__text m--in">
+                        <div className="img__text m--in">
 
                             <h3>If you already has an account, just sign in.</h3>
                         </div>
-                        <div class="img__btn">
-                            <span class="m--up">Sign Up</span>
-                            <span class="m--in">Sign In</span>
+                        <div className="img__btn" onClick={handleToggle}>
+                            <span className="m--up">Sign Up</span>
+                            <span className="m--in">Sign In</span>
                         </div>
                     </div>
-                    <div class="form sign-up">
+                    <div className="form sign-up">
                         <h2>Create your Account</h2>
                         <label>
                             <span>Name</span>
@@ -55,7 +64,7 @@ export default function form() {
                             <span>Password</span>
                             <input type="password" />
                         </label>
-                        <button type="button" class="submit">Sign Up</button>
+                        <button type="button" className="submit">Sign Up</button>
                     </div>
                 </div>
             </div>
