@@ -1,9 +1,13 @@
 @import './header.scss';
 @import './hero.scss';
 @import './footer.scss';
+@import './form.scss';
 
 * {
     font-family: "Lexend Deca", sans-serif;
+}
+
+body {
     margin-left: 0px;
     background-image: url('../images/light-backround.png');
     background-repeat: no-repeat;
