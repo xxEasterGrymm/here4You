@@ -4,7 +4,13 @@ export default class Header extends PureComponent {
     render() {
         return (
             <header>
-                header
+                <nav>
+      <ul class="nav_links">
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </nav>
             </header>
         )
     }
