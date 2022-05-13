@@ -1,6 +1,5 @@
 body {
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-    background: #ffffff;
 }
 
 input, button {
@@ -117,7 +116,7 @@ button {
     width: 100%;
     padding: 0 20px;
     text-align: center;
-    color: #fff;
+    color: #ffffff;
     -webkit-transition: -webkit-transform 1.2s ease-in-out;
     transition: -webkit-transform 1.2s ease-in-out;
     transition: transform 1.2s ease-in-out;
@@ -265,7 +264,7 @@ input {
 .sign-in {
     -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
-    background-color: #8ac73f;
+    background-color: #ffffff;
 }
 
 .cont.s--signup .sign-in {
@@ -286,4 +285,9 @@ input {
 .cont.s--signup .sign-up {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
+}
+.space{
+    margin-bottom: 60px;
+    margin-top: 0;
+    text-align: center;
 }
