@@ -1,10 +1,16 @@
 import React from 'react';
-import Form from '../registration/form';
+import Navbar from './navbar';
+import Form from './form';
+import About from './about'
+import Blogs from './blogs'
 
 export default function registration() {
   return (
     <div>
-        <Form />
+      <Navbar />
+      <Form />
+      <About />
+      <Blogs />
     </div>
   )
 }

@@ -59,7 +59,6 @@ export default function Form() {
                     </div>
                 </div>
             </div>
-            <div class='space'><p>Need Help?</p></div>
         </div>
     )
 }

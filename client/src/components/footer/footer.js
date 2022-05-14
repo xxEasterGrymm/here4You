@@ -1,11 +1,11 @@
 import React, { PureComponent } from 'react'
-import Logo from 'E:/here4u new/here4You/client/src/images/logo.png'
+import Logo from '../../images/logo.png'
 
 export default class Footer extends PureComponent {
     render() {
         return (
             <footer>
-                <div class="row">
+                <div class="row" id='contact'>
                     <div class="col">
                         <img src={Logo} alt='Logo' class="logo"></img>
                         <p>This portion of the page will consist of 
