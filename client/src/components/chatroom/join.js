@@ -1,6 +1,5 @@
 import React from 'react';
 import Header from '../header/header';
-import { Link } from 'react-router-dom';
 import { useState } from "react";
 import Chat from "./chat";
 import io from 'socket.io-client';
@@ -33,13 +32,16 @@ export default function Join() {
                                 setUsername(event.target.value);
                             }}
                         />
-                        <input
-                            type="text"
-                            placeholder="Room ID..."
-                            onChange={(event) => {
+
+                        <select name="cars" id="cars" onChange={(event) => {
                                 setRoom(event.target.value);
-                            }}
-                        />
+                            }}>
+                            <option value="">-Select an Option-</option>
+                            <option value="volvo">Volvo</option>
+                            <option value="saab">Saab</option>
+                            <option value="mercedes">Mercedes</option>
+                            <option value="audi">Audi</option>
+                        </select>
                         <button onClick={joinRoom}>Join A Room</button>
                     </div>
                 ) : (

@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import ScrollToBottom from "react-scroll-to-bottom";
-import Header from '../header/header';
 
 function Chat({ socket, username, room }) {
   const [currentMessage, setCurrentMessage] = useState("");
@@ -32,7 +31,6 @@ function Chat({ socket, username, room }) {
 
   return (
     <div>
-      <Header />
       <div id="container">
         <div className="chat-window">
           <div className="chat-header">

@@ -8,11 +8,7 @@ export default class Footer extends PureComponent {
                 <div class="row" id='contact'>
                     <div class="col">
                         <img src={Logo} alt='Logo' class="logo"></img>
-                        <p>This portion of the page will consist of 
-                            brief information about the website. There will 
-                            also be some links included along side for
-                            navigation across different pages of the website.
-                            and this is a sample text.
+                        <p>This is a project is a collaborative effort towards a healthier environment for people with mental health issues, we believe that such issues should be taken seriously and everyone should get the right help. We also believe in open source and thus this project is publicly available and open to contribution.
                         </p>
                     </div>
                     <div class='col'>

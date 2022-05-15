@@ -1,4 +1,4 @@
-#container, .App {
+.App, #container {
     width: 98vw;
     height: 80vh;
     color: #212121;
@@ -6,6 +6,7 @@
     display: grid;
     place-items: center;
   }
+
   body {
     margin: 0%;
     padding: 0%;
