@@ -24,6 +24,7 @@ button {
     height: 550px;
     margin: 0 auto 100px;
     background: #fff;
+    box-shadow: 5px 10px #eeeeee;
 }
 
 .form {
@@ -470,55 +471,5 @@ input {
         -webkit-hyphens: auto;
         -ms-hyphens: auto;
         hyphens: auto;
-    }
-}
-
-#navbar {
-    background-color: #fff;
-}
-
-#logo-container {
-    width: 400px;
-    margin-left: -100px;
-
-    img {
-        height: 130px;
-        width: 180px;
-    }
-
-    a {
-        text-decoration: none;
-        font-size: 24px;
-            font-weight: 600;
-            color: #000;
-    }
-
-    a:hover {
-        color: #1189af;
-    }
-}
-
-.nav-links {
-    list-style-type: none;
-
-    li {
-        float: right;
-        position: relative;
-        top: -100px;
-
-        a {
-            display: block;
-            text-align: center;
-            padding-right: 16px;
-            padding-left: 14px;
-            padding-top: 15px;
-            font-size: 24px;
-            font-weight: 600;
-            color: #000;
-        }
-
-        a:hover {
-            color: #1189af;
-        }
     }
 }

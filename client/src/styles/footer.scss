@@ -1,5 +1,5 @@
-footer{
-    background-color: #353133;
+footer {
+    background-color: #fff;
     width: 100%;
     position: relative;
     bottom: 0;
@@ -9,8 +9,9 @@ footer{
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
 }
-.row{
-    color: #ffffff;
+
+.row {
+    color: #353133;
     width: 85%;
     margin: auto;
     display: flex;
@@ -18,30 +19,36 @@ footer{
     align-items: flex-start;
     justify-content: space-between;
 }
-.col{
+
+.col {
     flex-basis: 25%;
     padding: 10px;
 }
-.logo{
+
+.logo {
     width: 150px;
     margin-bottom: 10px;
     margin-top: -60px;
     margin-left: 20%;
 }
-.col h4{
+
+.col h4 {
     margin-left: 30px;
     padding-bottom: 40px;
 }
-.col h3{
+
+.col h3 {
     width: fit-content;
     margin-bottom: 40px;
     position: relative;
 }
-ul li{
+
+ul li {
     list-style: none;
     margin-bottom: 12px;
 }
-ul li a{
+
+ul li a {
     text-decoration: none;
-    color: #ffffff;
+    color: #353133;
 }

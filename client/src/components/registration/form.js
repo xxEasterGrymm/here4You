@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Form() {
     const [isActive, setActive] = useState("false");
@@ -23,7 +24,7 @@ export default function Form() {
                         <input type="password" />
                     </label>
                     <p className="forgot-pass">Forgot password?</p>
-                    <button type="button" className="submit">Sign In</button>
+                    <Link to='/join'><button type="button" className="submit">Sign In</button></Link>
 
                 </div>
                 <div className="sub-cont">
@@ -55,7 +56,7 @@ export default function Form() {
                             <span>Password</span>
                             <input type="password" />
                         </label>
-                        <button type="button" className="submit">Sign Up</button>
+                        <Link to='/join'><button type="button" className="submit">Sign Up</button></Link>
                     </div>
                 </div>
             </div>
