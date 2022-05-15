@@ -32,7 +32,7 @@ function Chat({ socket, username, room }) {
 
   return (
     <div>
-      <Header />
+        <Header/>
       <div className="chat-window">
         <div className="chat-header">
           <p>Live Chat</p>
@@ -76,5 +76,4 @@ function Chat({ socket, username, room }) {
     </div>
   );
 }
-
 export default Chat;

@@ -11,6 +11,7 @@ export default class Header extends PureComponent {
                         <li><a href="#">About</a></li>
                     </ul>
                 </nav>
+                <a class="ct" href='#'><button>Contact</button></a>
             </header>
         )
     }
