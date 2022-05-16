@@ -33,7 +33,7 @@ export default function Join() {
                             }}
                         />
 
-                        <select name="cars" id="cars" onChange={(event) => {
+                        <select name="cars" class="cars" onChange={(event) => {
                                 setRoom(event.target.value);
                             }}>
                             <option value="">-Select an Option-</option>
@@ -42,7 +42,8 @@ export default function Join() {
                             <option value="mercedes">Mercedes</option>
                             <option value="audi">Audi</option>
                         </select>
-                        <button onClick={joinRoom}>Join A Room</button>
+                        <span class="custom-arrow"></span>
+                        <button onClick={joinRoom} id="btn">Join A Room</button>
                     </div>
                 ) : (
                     <Chat socket={socket} username={username} room={room} />
