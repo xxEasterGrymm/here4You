@@ -13,6 +13,7 @@
   }
 
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700");
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital@1&display=swap');
 
 .joinChatContainer {
   display: flex;
@@ -32,6 +33,7 @@
   border-radius: 5px;
   padding: 5px;
   font-size: 16px;
+  margin-bottom: 30px;
 }
 
 .joinChatContainer button {
@@ -45,6 +47,10 @@
   background: #8ac73f;
   color: #fff;
   cursor: pointer;
+}
+.joinChatContainer input{
+  background: #ffffff;
+  border-radius: 6px;
 }
 
 .joinChatContainer button:hover {
@@ -188,4 +194,20 @@
 }
 .hide {
   opacity: 0 !important;
+}
+.cars{
+  position:relative;
+  display: flex;
+  text-align: center;
+  width: 95%;
+  padding: 10px;
+  justify-content: center;
+  margin-left: 3%;
+  border-radius: 6px;
+  border-color: #8ac73f;
+  border-width: 2px;
+}
+#btn{
+  margin-top: 30px;
+  padding: 10px;
 }
