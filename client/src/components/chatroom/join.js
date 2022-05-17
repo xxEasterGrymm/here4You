@@ -34,13 +34,16 @@ export default function Join() {
                         />
 
                         <select name="cars" class="cars" onChange={(event) => {
-                                setRoom(event.target.value);
-                            }}>
+                            setRoom(event.target.value);
+                        }}>
                             <option value="">-Select an Option-</option>
-                            <option value="volvo">Volvo</option>
-                            <option value="saab">Saab</option>
-                            <option value="mercedes">Mercedes</option>
-                            <option value="audi">Audi</option>
+                            <option value="Clinical Depression">Clinical Depression</option>
+                            <option value="Anxiety Disorder">Anxiety Disorder</option>
+                            <option value="Bipolar Disorder">Bipolar Disorder</option>
+                            <option value="Dementia">Dementia</option>
+                            <option value="ADHD">ADHD</option>
+                            <option value="Schizophrenia">Schizophrenia</option>
+                            <option value="PTSD">PTSD</option>
                         </select>
                         <span class="custom-arrow"></span>
                         <button onClick={joinRoom} id="btn">Join A Room</button>
