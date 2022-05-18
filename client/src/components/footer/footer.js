@@ -1,5 +1,6 @@
 import React, { PureComponent } from 'react'
 import Logo from '../../images/logo.png'
+import Github from '../../images/github.png'
 
 export default class Footer extends PureComponent {
     render() {
@@ -14,17 +15,26 @@ export default class Footer extends PureComponent {
                     <div class='col'>
                         <h4>Links</h4>
                         <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                            <li><a href="">University</a></li>
+                            <li><a href="#Home">Home</a></li>
+                            <li><a href="#Contact Us">Contact Us</a></li>
+                            <li><a href="#University">University</a></li>
+                            <li><a href="#github"><img src={Github} alt="" id="github"></img></a></li>
+                            <li><a href="#github"><img src={Github} alt="" id="github"></img></a></li>
                         </ul>
                     </div>
                     <div class="col">
-                        <h3>Chandigarh University</h3>
-                        <p>Mohali, Punjab</p>
+                        <ul>
+                            <li><h3>Reach Out to Us</h3></li>
+                            <li>here4you@gmail.com</li>
+                            <li>+03 33-529-4568</li>
+                            <li>Mohali, Punjab</li>
+                        </ul>
                     </div>
                     <div class='col'>
-                        <h3>Newsletter</h3>
+                        <ul>
+                        <li><h3>Newsletter</h3></li>
+                        <li><a href="Subscibe">Subscribe</a></li>
+                        </ul>
                     </div>
                 </div>
             </footer>
