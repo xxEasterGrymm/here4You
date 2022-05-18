@@ -58,3 +58,4 @@ mongoose.connect(process.env.MDB_CONNECT, (err) => {
 // setting up routes
 
 app.use("/auth", require("./routers/userRouter"));
+app.use("/join", require("./routers/joinRouter"));

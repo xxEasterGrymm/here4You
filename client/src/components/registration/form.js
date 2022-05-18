@@ -59,7 +59,7 @@ export default function Form() {
                         <input type="password" onChange={(e) => setPassword(e.target.value)} value={password} />
                     </label>
                     <p className="forgot-pass">Forgot password?</p>
-                    <button type="button" className="submit">Sign In</button>
+                    <button type="button" className="submit"><Link to="/join">Sign In</Link></button>
 
                 </form>
                 <div className="sub-cont">
@@ -91,7 +91,7 @@ export default function Form() {
                             <span>Confirm Password</span>
                             <input type="password" onChange={(e) => setPasswordVerify(e.target.value)} value={passwordVerify} />
                         </label>
-                        <button type="submit" className="submit">Sign Up</button>
+                        <button type="submit" className="submit"><Link to="/join">Sign Up</Link></button>
                     </form>
                 </div>
             </div>
