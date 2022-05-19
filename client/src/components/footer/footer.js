@@ -1,6 +1,7 @@
-import React, { PureComponent } from 'react'
-import Logo from '../../images/logo.png'
-import Github from '../../images/github.png'
+import React, { PureComponent } from 'react';
+import Logo from '../../images/logo.png';
+import Github from '../../images/github.png';
+import {Link} from 'react-router-dom';
 
 export default class Footer extends PureComponent {
     render() {
@@ -15,25 +16,24 @@ export default class Footer extends PureComponent {
                     <div class='col'>
                         <h4>Links</h4>
                         <ul>
-                            <li><a href="#Home">Home</a></li>
-                            <li><a href="#Contact Us">Contact Us</a></li>
-                            <li><a href="#University">University</a></li>
-                            <li><a href="#github"><img src={Github} alt="" id="github"></img></a></li>
-                            <li><a href="#github"><img src={Github} alt="" id="github"></img></a></li>
+                        <li><b>&copy; Here4You</b></li>
+                            <li><Link to="/">Home</Link></li>
+                            <li><a href="https://www.cuchd.in/" target="blank" title='Chandigarh University'>Chandigarh University</a></li>
+                            <li><a href="https://github.com/xxEasterGrymm/here4You" target="blank" title='Github'><img src={Github} alt="" id="github"></img></a></li>
                         </ul>
                     </div>
                     <div class="col">
                         <ul>
                             <li><h3>Reach Out to Us</h3></li>
                             <li>here4you@gmail.com</li>
-                            <li>+03 33-529-4568</li>
+                            <li>+033 6539 6957</li>
                             <li>Mohali, Punjab</li>
                         </ul>
                     </div>
                     <div class='col'>
                         <ul>
                         <li><h3>Newsletter</h3></li>
-                        <li><a href="Subscibe">Subscribe</a></li>
+                        <li><a href="#">Subscribe</a></li>
                         </ul>
                     </div>
                 </div>
